@@ -4,11 +4,7 @@ license = "LGPL-3.0-or-later"
 maintainer = "ivan.pribec@gmail.com"
 author = "Ivan Pribec"
 copyright = "Copyright 2022 Ivan Pribec"
-description = "Fortran interface to libdogleg - general purpose optimizer"
-categories = ["io"]
-keywords = ["hdf5", "mpi"]
-homepage = "https://stdlib.fortran-lang.org"
-
+description = "Fortran interface to libdogleg - a large-scale general purpose optimizer"
 
 [build]
 auto-executables = false
