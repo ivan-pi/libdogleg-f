@@ -21,3 +21,8 @@ main = "sample.f90"
 name = "powell"
 source-dir = "example"
 main = "powell.f90"
+
+[[executable]]
+name = "lmder_example"
+source-dir = "example"
+main = "lmder_example.f90"
