@@ -16,3 +16,8 @@ link = ["cholmod", "suitesparseconfig", "lapack", "m"]
 name = "sample"
 source-dir = "example"
 main = "sample.f90"
+
+[[executable]]
+name = "powell"
+source-dir = "example"
+main = "powell.f90"
