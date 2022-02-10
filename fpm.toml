@@ -26,3 +26,8 @@ main = "powell.f90"
 name = "lmder_example"
 source-dir = "example"
 main = "lmder_example.f90"
+
+[[executable]]
+name = "mathworks_example"
+source-dir = "example"
+main = "mathworks_example.f90"
