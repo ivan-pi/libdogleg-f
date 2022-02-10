@@ -3,6 +3,9 @@
 !> A full description can be found in the Ceres library:
 !>   http://ceres-solver.org/nnls_tutorial.html#powell-s-function
 !>
+!> The full code for the original example can be found at:
+!>   https://ceres-solver.googlesource.com/ceres-solver/+/master/examples/powell.cc
+!>
 module powell
 
    use, intrinsic :: iso_c_binding, only: wp => c_double
