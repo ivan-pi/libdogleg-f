@@ -1,5 +1,7 @@
 # libdogleg-f
 
+[![License: LGPL v3](https://img.shields.io/badge/License-LGPL_v3-blue.svg)](https://www.gnu.org/licenses/lgpl-3.0)
+
 Fortran bindings to [libdogleg](https://github.com/dkogan/libdogleg) - a large-scale nonlinear least-squares optimization library.
 
 Currently only the dense optimizer calls are supported.
