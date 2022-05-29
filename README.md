@@ -4,9 +4,9 @@
 
 Fortran bindings to [`libdogleg`](https://github.com/dkogan/libdogleg) - a large-scale nonlinear least-squares optimization library.
 
-The main task of the library is to find the vector $\boldsymbol{p}$ that satisfies
+The main task of the library is to solve the unconstrained [non-linear least squares problem](http://en.wikipedia.org/wiki/Non-linear_least_squares), i.e. find the vector $\boldsymbol{p}$ that satisfies
 
-$$\mathrm{min}_\boldsymbol{p} {\frac{1}{2}} \sum_i \| x_i(\boldsymbol{p}) \|^2}$$
+$$\underset{\boldsymbol{p}}{\mathrm{min}} {\frac{1}{2} \sum_i \| f_i(\boldsymbol{p}) \|^2}$$
 
 
 Currently only the dense optimizer calls are supported.
