@@ -2,10 +2,15 @@
 
 [![License: LGPL v3](https://img.shields.io/badge/License-LGPL_v3-blue.svg)](https://www.gnu.org/licenses/lgpl-3.0)
 
-Fortran bindings to [libdogleg](https://github.com/dkogan/libdogleg) - a large-scale nonlinear least-squares optimization library.
+Fortran bindings to [`libdogleg`](https://github.com/dkogan/libdogleg) - a large-scale nonlinear least-squares optimization library.
+
+The main task of the library is to find the vector $`p`$ that satisfies
+
+$$ \mathrm{min}_p {\frac{1}{2}} \sum_i \lVert x_i(p_) \rVert^2 $$
+
+
 
 Currently only the dense optimizer calls are supported.
-
 
 ## Installation
 
