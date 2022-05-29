@@ -6,8 +6,9 @@ Fortran bindings to [`libdogleg`](https://github.com/dkogan/libdogleg) - a large
 
 The main task of the library is to solve the unconstrained [non-linear least squares problem](http://en.wikipedia.org/wiki/Non-linear_least_squares), i.e. find the vector $\boldsymbol{p}$ that satisfies
 
-$$\underset{\boldsymbol{p}}{\mathrm{min}} {\frac{1}{2} \sum_i \| f_i(\boldsymbol{p}) \|^2}$$
+$$\underset{\boldsymbol{p}}{\mathrm{min}} \; {\frac{1}{2} \sum_i {\lVert f_i(\boldsymbol{p}) \rVert}^2}$$
 
+The cost function $f: \boldsymbol{p} \rightarrow \boldsymbol{x}$ represents a mapping from the state variables $\boldsymbol{p} \in \mathbb{R}^n$ to a vector of residuals $\boldsymbol{x} \in \mathbb{R}^m$, $m > n$, of higher dimensionality than $\boldsymbol{p}$.
 
 Currently only the dense optimizer calls are supported.
 
